@@ -66,6 +66,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1243424319500668969}
     m_Modifications:
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_Mass
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_LinearDamping
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_AngularDamping
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6360216533615354863, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
       propertyPath: m_Name
       value: Cube (4)
@@ -128,6 +140,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1243424319500668969}
     m_Modifications:
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_Mass
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_LinearDamping
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_AngularDamping
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6360216533615354863, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
       propertyPath: m_Name
       value: Cube (23)
@@ -190,6 +214,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1243424319500668969}
     m_Modifications:
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_Mass
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_LinearDamping
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_AngularDamping
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6360216533615354863, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
       propertyPath: m_Name
       value: Cube (26)
@@ -321,9 +357,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6067205912776304480}
   serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_Mass: 0.15
+  m_LinearDamping: 0.05
+  m_AngularDamping: 1
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -353,6 +389,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1243424319500668969}
     m_Modifications:
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_Mass
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_LinearDamping
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_AngularDamping
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6360216533615354863, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
       propertyPath: m_Name
       value: Cube (25)
@@ -488,9 +536,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5284957977715660212}
   serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_Mass: 0.15
+  m_LinearDamping: 0.05
+  m_AngularDamping: 1
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -585,9 +633,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5596164846924503421}
   serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_Mass: 0.15
+  m_LinearDamping: 0.05
+  m_AngularDamping: 1
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -686,9 +734,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5747134042038586345}
   serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_Mass: 0.15
+  m_LinearDamping: 0.05
+  m_AngularDamping: 1
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -718,6 +766,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1243424319500668969}
     m_Modifications:
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_Mass
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_LinearDamping
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_AngularDamping
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6360216533615354863, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
       propertyPath: m_Name
       value: Cube (8)
@@ -784,6 +844,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1243424319500668969}
     m_Modifications:
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_Mass
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_LinearDamping
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_AngularDamping
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6360216533615354863, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
       propertyPath: m_Name
       value: Cube (19)
@@ -850,6 +922,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1243424319500668969}
     m_Modifications:
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_Mass
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_LinearDamping
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_AngularDamping
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6360216533615354863, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
       propertyPath: m_Name
       value: Cube (20)
@@ -990,9 +1074,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8299670430367399966}
   serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_Mass: 0.15
+  m_LinearDamping: 0.05
+  m_AngularDamping: 1
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1017,6 +1101,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1243424319500668969}
     m_Modifications:
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_Mass
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_LinearDamping
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_AngularDamping
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6360216533615354863, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
       propertyPath: m_Name
       value: Cube (5)
@@ -1079,6 +1175,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1243424319500668969}
     m_Modifications:
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_Mass
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_LinearDamping
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_AngularDamping
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6360216533615354863, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
       propertyPath: m_Name
       value: Cube (13)
@@ -1219,9 +1327,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6964503791042928969}
   serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_Mass: 0.15
+  m_LinearDamping: 0.05
+  m_AngularDamping: 1
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1246,6 +1354,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1243424319500668969}
     m_Modifications:
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_Mass
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_LinearDamping
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_AngularDamping
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6360216533615354863, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
       propertyPath: m_Name
       value: Cube (14)
@@ -1381,9 +1501,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1360848003347979615}
   serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_Mass: 0.15
+  m_LinearDamping: 0.05
+  m_AngularDamping: 1
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1413,6 +1533,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1243424319500668969}
     m_Modifications:
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_Mass
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_LinearDamping
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_AngularDamping
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6360216533615354863, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
       propertyPath: m_Name
       value: Cube (10)
@@ -1475,6 +1607,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1243424319500668969}
     m_Modifications:
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_Mass
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_LinearDamping
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_AngularDamping
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6360216533615354863, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
       propertyPath: m_Name
       value: Cube (2)
@@ -1541,6 +1685,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1243424319500668969}
     m_Modifications:
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_Mass
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_LinearDamping
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_AngularDamping
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6360216533615354863, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
       propertyPath: m_Name
       value: Cube (16)
@@ -1603,6 +1759,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1243424319500668969}
     m_Modifications:
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_Mass
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_LinearDamping
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_AngularDamping
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6360216533615354863, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
       propertyPath: m_Name
       value: Cube (1)
@@ -1669,6 +1837,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1243424319500668969}
     m_Modifications:
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_Mass
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_LinearDamping
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_AngularDamping
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6360216533615354863, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
       propertyPath: m_Name
       value: Cube (17)
@@ -1801,9 +1981,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3710514883887355573}
   serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_Mass: 0.15
+  m_LinearDamping: 0.05
+  m_AngularDamping: 1
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1828,6 +2008,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1243424319500668969}
     m_Modifications:
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_Mass
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_LinearDamping
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_AngularDamping
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6360216533615354863, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
       propertyPath: m_Name
       value: Cube (7)
@@ -1894,6 +2086,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1243424319500668969}
     m_Modifications:
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_Mass
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_LinearDamping
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_AngularDamping
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6360216533615354863, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
       propertyPath: m_Name
       value: Cube (11)
@@ -1956,6 +2160,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1243424319500668969}
     m_Modifications:
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_Mass
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_LinearDamping
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: -4163562938640876439, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
+      propertyPath: m_AngularDamping
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6360216533615354863, guid: 2fa397f2a33e5f340bd7dd51ab2f0050, type: 3}
       propertyPath: m_Name
       value: Cube (22)
@@ -2088,9 +2304,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2731700312437049285}
   serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_Mass: 0.15
+  m_LinearDamping: 0.05
+  m_AngularDamping: 1
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
