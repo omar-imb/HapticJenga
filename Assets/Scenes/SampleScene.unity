@@ -2594,15 +2594,13 @@ MonoBehaviour:
   skyDropdown: {fileID: 1691965590}
   blockMaterials:
   - {fileID: 2100000, guid: 5fc4e93119638aa4cb77b1da8b70706d, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 20a191835bd22914d986236d92d78992, type: 2}
   floorMaterials:
   - {fileID: 2100000, guid: 1917fef5b4f380948b9f1dea9eab85af, type: 2}
   - {fileID: 2100000, guid: 85a27bf480420d14c9ddf8e7cb6a3ecb, type: 2}
   skyboxMaterials:
   - {fileID: 2100000, guid: 47ffddda6ce97444993e2362b98050ab, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 2100000, guid: ae755ea2a4565b443bed7a1660f96dbd, type: 2}
 --- !u!4 &929063246
 Transform:
   m_ObjectHideFlags: 0
@@ -4940,9 +4938,6 @@ MonoBehaviour:
     - m_Text: Daytime
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Evening
-      m_Image: {fileID: 0}
-      m_Color: {r: 1, g: 1, b: 1, a: 1}
     - m_Text: Night
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5528,9 +5523,6 @@ MonoBehaviour:
   m_Options:
     m_Options:
     - m_Text: Dark Wood
-      m_Image: {fileID: 0}
-      m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Classic
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
     - m_Text: Marble
