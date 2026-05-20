@@ -5,6 +5,9 @@ public class SimpleMenu : MonoBehaviour
 {
     public GameObject mainMenuPanel;
     public GameObject menuButton;
+    public GameObject controlsPanel;
+    public GameObject playButton;
+    public GameObject continueButton;
 
     // Recuerda si ya se inició el juego
     private static bool gameStarted = false;
@@ -13,19 +16,25 @@ public class SimpleMenu : MonoBehaviour
     {
         if (gameStarted)
         {
-            // Si viene de un restart
             mainMenuPanel.SetActive(false);
 
             menuButton.SetActive(true);
+
+            playButton.SetActive(false);
+            continueButton.SetActive(true);
 
             Time.timeScale = 1f;
         }
         else
         {
-            // Primera vez que abre el juego
+
+
             mainMenuPanel.SetActive(true);
 
             menuButton.SetActive(false);
+
+            playButton.SetActive(true);
+            continueButton.SetActive(false);
 
             Time.timeScale = 0f;
         }
@@ -40,6 +49,9 @@ public class SimpleMenu : MonoBehaviour
         menuButton.SetActive(true);
 
         Time.timeScale = 1f;
+
+        playButton.SetActive(false);
+        continueButton.SetActive(true);
     }
 
     public void OpenMenu()
@@ -60,8 +72,25 @@ public class SimpleMenu : MonoBehaviour
 
     public void ExitGame()
     {
-        Application.Quit();
-
         Debug.Log("Salir");
+
+        #if UNITY_EDITOR
+                UnityEditor.EditorApplication.isPlaying = false;
+        #else
+            Application.Quit();
+        #endif
+    }
+    public void OpenControls()
+    {
+        mainMenuPanel.SetActive(false);
+
+        controlsPanel.SetActive(true);
+    }
+
+    public void CloseControls()
+    {
+        controlsPanel.SetActive(false);
+
+        mainMenuPanel.SetActive(true);
     }
 }
