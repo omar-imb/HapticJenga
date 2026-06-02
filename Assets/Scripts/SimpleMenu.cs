@@ -8,6 +8,7 @@ public class SimpleMenu : MonoBehaviour
     public GameObject controlsPanel;
     public GameObject playButton;
     public GameObject continueButton;
+    public GameObject optionsPanel;
 
     // Recuerda si ya se inició el juego
     private static bool gameStarted = false;
@@ -92,5 +93,47 @@ public class SimpleMenu : MonoBehaviour
         controlsPanel.SetActive(false);
 
         mainMenuPanel.SetActive(true);
+    }
+
+    public void OpenOptions()
+    {
+        mainMenuPanel.SetActive(false);
+
+        optionsPanel.SetActive(true);
+    }
+
+    public void CloseOptions()
+    {
+        optionsPanel.SetActive(false);
+
+        mainMenuPanel.SetActive(true);
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            // Si estamos en Controles
+            if (controlsPanel.activeSelf)
+            {
+                CloseControls();
+            }
+            // Si estamos en Opciones
+            else if (optionsPanel.activeSelf)
+            {
+                CloseOptions();
+            }
+            // Si estamos en el menú principal
+            else if (mainMenuPanel.activeSelf)
+            {
+                mainMenuPanel.SetActive(false);
+                Time.timeScale = 1f;
+            }
+            // Si estamos jugando
+            else
+            {
+                OpenMenu();
+            }
+        }
     }
 }
