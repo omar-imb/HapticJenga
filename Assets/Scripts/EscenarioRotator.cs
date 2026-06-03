@@ -55,14 +55,14 @@ public class EscenarioRotator : MonoBehaviour
             Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D);
 
         // NUEVO: Bloquear/desbloquear bloques según si gira
-        if (isRotating && !blocksLocked)
-        {
-            SetBlocksKinematic(true);
-        }
-        else if (!isRotating && blocksLocked)
-        {
-            SetBlocksKinematic(false);
-        }
+                if (isRotating && !blocksLocked)
+                {
+                    SetBlocksKinematic(true);
+                }
+                else if (!isRotating && blocksLocked)
+                {
+                    SetBlocksKinematic(false);
+                }
 
         // 1. INPUTS (Rotación, Altura y Zoom)
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
@@ -102,16 +102,19 @@ public class EscenarioRotator : MonoBehaviour
 
         foreach (Rigidbody rb in blockRBs)
         {
-            if (rb != null)
-            {
-                rb.isKinematic = state;
+            if (rb == null)
+                continue;
 
-                // Al soltar, limpiar pequeñas velocidades raras
-                if (!state)
-                {
-                    rb.linearVelocity = Vector3.zero;
-                    rb.angularVelocity = Vector3.zero;
-                }
+            // Ignorar el bloque que está siendo manipulado
+            if (rb.gameObject == HIP_SM.GrabbedObject)
+                continue;
+
+            rb.isKinematic = state;
+
+            if (!state)
+            {
+                rb.linearVelocity = Vector3.zero;
+                rb.angularVelocity = Vector3.zero;
             }
         }
 

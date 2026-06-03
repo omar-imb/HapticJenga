@@ -88,6 +88,8 @@ public class HIP_SM : MonoBehaviour
 
     private GameObject manipObj = null;
 
+    public static GameObject GrabbedObject;
+
 
 
 
@@ -141,6 +143,14 @@ public class HIP_SM : MonoBehaviour
     void Update()
 
     {
+
+        if (manipObj != null)
+        {
+            Debug.Log(Vector3.Distance(
+                manipObj.transform.position,
+                transform.position
+            ));
+        }
 
         // get haptic device to be used
 
@@ -196,12 +206,9 @@ public class HIP_SM : MonoBehaviour
 
                 manipObj.GetComponent<Rigidbody>().useGravity = true;
 
-                //Reset Manipulated Object
+                GrabbedObject = null;
 
                 manipObj = null;
-
-                //Reset prevParent
-
                 prevParent = null;
 
             }
@@ -387,6 +394,7 @@ public class HIP_SM : MonoBehaviour
 
 
                 manipObj = collision.gameObject;
+                GrabbedObject = manipObj;
 
                 prevParent = collision.transform.parent;
 
